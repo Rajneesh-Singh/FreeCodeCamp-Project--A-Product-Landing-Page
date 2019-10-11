@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Project Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="https://kit.fontawesome.com/c3694ab3ad.js"></script>
+
+
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    #full {
+      background: url(image/Apple_Watch-.jpg)no-repeat center/cover;
+      margin-top: 0px;
+      width: 100%;
+      height: 600px;
+    }
+
+    #full1 {
+      width: 100%;
+      height: 100px;
+
+      /* background: red; */
+    }
+
+    .p1 {
+      font-size: 55px;
+      padding-top: 300px;
+      color: white;
+      text-align: center;
+
+    }
+
+    #full2 {
+      width: 700px;
+      height: 100px;
+
+      margin-top: 300px;
+      text-align: center;
+      margin-left: 350px;
+    }
+
+    .p2 {
+      float: left;
+      text-align: center;
+      padding-left: 70px;
+      margin-left: 0px;
+      color: white;
+      font-size: 20px;
+    }
+
+    #full3 {
+      width: 100%;
+      height: 300px;
+      margin-top: 80px;
+
+    }
+
+    #full4 {
+      width: 40%;
+      height: 100%;
+      background: url("image/a.jpg")no-repeat center center/cover;
+      float: left;
+      margin-left: 100px;
+    }
+
+    .full5 {
+      width: 39.5%;
+      height: 100%;
+      background: gray;
+      float: right;
+      margin-right: 100px;
+
+    }
+
+    #full6 {
+      width: 100%;
+      height: 300px;
+
+      margin-top: 80px;
+    }
+
+    #full7 {
+      width: 40%;
+      height: 100%;
+      background: url("image/b.jpg")no-repeat center center/cover;
+      float: left;
+      margin-left: 100px;
+    }
+
+    #full8 {
+      width: 39.5%;
+      height: 100%;
+      background: pink;
+      float: right;
+      margin-right: 100px;
+    }
+
+
+    #full9 {
+      width: 100%;
+      height: 300px;
+
+      margin-top: 80px;
+    }
+
+    #full10 {
+      width: 40%;
+      height: 100%;
+      background: url("image/c.jpg")no-repeat center center/cover;
+      float: left;
+      margin-left: 100px;
+    }
+
+    #full11 {
+      width: 39.5%;
+      height: 100%;
+      background: darkblue;
+      float: right;
+      margin-right: 100px;
+    }
+
+    #full12 {
+      width: 100%;
+      height: 180px;
+      color: black;
+      /* text-align: center;
+      margin-top:80px;
+      padding-top: 60px; */
+      padding-top: 50px;
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background:lightgray;
+
+
+    }
+
+    @media(max-width:800px) {
+      #full12 {
+        background: hotpink;
+      }
+
+    }
+
+    #full12 input {
+      color: black;
+    }
+
+    .nav-link {
+      color: white;
+      padding-right: 30px;
+      text-decoration: none;
+    }
+    .p3{
+      font-size: 20px;
+     
+    }
+  
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header id="header" class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <img src="" id="header-img" class="mdl-layout-title"><i class="fab fa-apple"></i>WATCH
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav id="nav-bar" class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="nav-link" href="#full1">Store</a>
+          <a class="nav-link" href="#full9">Mac</a>
+          <a class="nav-link" href="#full2">iPad</a>
+          <a class="nav-link" href="#full6">iPhone</a>
+          <a class="nav-link" href="#full3">Watch</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Title</span>
+
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div id="full">
+          <div id="full1">
+            <p class="p1">The Watch is here<p>
+
+          </div>
+          <div id="full2">
+            <p class="p2">Buy the Watch</p>
+            <p class="p2">Buy the iPhone</p>
+            <p class="p2">But the Laptop</p>
+          </div>
+
+        </div>
+        <div id="full3">
+          <div id="full4">
+
+          </div>
+          <div class="full5">
+            <iframe id="video" width="100%" height="100%" src="vedio/w.mp4?autoplay=1">
+            </iframe>
+
+          </div>
+
+        </div>
+
+
+        <div id="full6">
+          <div id="full7">
+
+          </div>
+          <div id="full8">
+            <iframe width=100% height="100%" src="vedio/i.mp4?autoplay=1">
+
+            </iframe>
+
+          </div>
+
+        </div>
+
+
+        <div id="full9">
+          <div id="full10">
+
+          </div>
+          <div id="full11">
+            <iframe width="100%" height="100%" src="vedio/l.mp4?autoplay=1">
+
+            </iframe>
+
+          </div>
+
+        </div>
+
+        <div id="full12">
+          <!-- Simple Textfield -->
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <p class="p3">Enter Your Details To Recieve Notification from us..</p>
+            <div class="mdl-textfield mdl-js-textfield">
+              <input name="email" id="email" class="mdl-textfield__input" type="email"
+                placeholder="Enter Your Email id..">
+              <label class="mdl-textfield__label" for="email">Enter Your Email id..</label>
+              <br>
+
+            </div>
+            <!-- Colored raised button -->
+            <div>
+              <input type="submit" value="Submit" id="submit"
+                class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+
+            </div>
+
+          </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+    </main>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
